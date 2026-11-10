@@ -1,0 +1,19 @@
+{
+  "name": "fork-to-brand",
+  "description": "Fork and rebrand an upstream app into your own product: rename every layer in dependency order, keep the upstream remote reachable, and prove the runtime still boots after the rename.",
+  "owner": {
+    "name": "Julylan Johnson",
+    "url": "https://github.com/Verstige"
+  },
+  "metadata": {
+    "description": "Fork and rebrand an upstream app into your own product: rename every layer in dependency order, keep the upstream remote reachable, and prove the runtime still boots after the rename.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "fork-to-brand",
+      "source": "./plugins/fork-to-brand",
+      "description": "Fork and rebrand an upstream app into your own product: rename every layer in dependency order, keep the upstream remote reachable, and prove the runtime still boots after the rename."
+    }
+  ]
+}
